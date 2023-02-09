@@ -10,7 +10,7 @@ contract horoscopeNFT is ERC721URIStorage {
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
 
-    constructor() ERC721("Horoscope", "HSCp") {}
+    constructor() ERC721("Horoscope", "HSCO") {}
 
     function mintNFT(address recipient, string memory zodiacSign) 
         
