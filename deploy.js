@@ -6,7 +6,7 @@ async function main() {
   await hscp.deployed();
 
   //since we are testing, you should mention your own Eth wallet address
-  const myAddress = "ETHEREUM_ADDRESS_WHERE_YOU_WANT_TO_MINT";
+  const myAddress0 = "ETHEREUM_ADDRESS_WHERE_YOU_WANT_TO_MINT";
   console.log("horoscopeNFT deployed to:", hscp.address);
 
   let txn = await hscp.mintNFT(myAddress, "virgo");
