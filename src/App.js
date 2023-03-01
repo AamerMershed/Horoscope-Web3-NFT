@@ -22,4 +22,4 @@ function App() {
   );
 }
 
-export default App;000
+export default App;00
